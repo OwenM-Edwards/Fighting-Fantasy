@@ -128,9 +128,12 @@ img{
     bottom:-44px;
     margin:0;
     padding:2px;
-    position:relative;
     background: rgb(158, 21, 0);
     border-top:3px solid rgb(97, 13, 0);
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
 }
 .footEnd {
     margin-left:auto;
@@ -144,6 +147,7 @@ ol li {
     color:rgb(222, 224, 195);
     cursor:pointer;
     margin:10px;
+    margin-left:-10px;
 }
 
 
